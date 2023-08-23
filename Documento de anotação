@@ -1,0 +1,46 @@
+ANOTAÇÕES:
+
+
+projetos utilizando o framework react pra exibir fotos
+utilizando alguns recursos que o react nos propociona
+
+
+
+
+
+
+componetes
+props
+usestate
+userfecct
+usecontext
+rotas
+readme
+
+cirar repositorio no git
+	nome do repo "photos-react"
+	
+criar workspace/photos
+criar projeto utitlizando o vite
+	npm create vite@latest 
+	
+	
+	criar estrutura do projeto "pastas"
+		header
+		foooter
+		main/pages
+	instalar o router
+	
+	criar componentes jsx css
+		header
+		foooter
+		main/pages
+		
+CORES:
+//f2992eff laranja
+//d95e40ff abobora
+//385976ff azul
+//5eba8cff verde	
+			
+
+
