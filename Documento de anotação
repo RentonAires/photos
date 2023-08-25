@@ -26,9 +26,10 @@ criar projeto utitlizando o vite
 	
 	
 	criar estrutura do projeto "pastas"
-		header
-		foooter
-		main/pages
+		header-ok
+		foooter-ok
+		main/pages-ok
+		
 	instalar o router
 	
 	criar componentes jsx css
@@ -40,7 +41,20 @@ CORES:
 //f2992eff laranja
 //d95e40ff abobora
 //385976ff azul
-//5eba8cff verde	
+//5eba8cff verde
+
+
+AJUSTES:
+fixar header no topo oculpando a tela inteira
+fixar footer na base oculpando a tela inteira
+
+
+
+
+
+
+
+
 			
 
 

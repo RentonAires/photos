@@ -1,14 +1,21 @@
+/*zero a configuraçao de pagina*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*conteiner do header*/
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border: solid 1px #f2992eff;
     background-color: #5eba8cff;
-    padding: 20px;
-    margin: 10px;
+}
+
+/*imagem da logo*/
+img {
+    width: 100px;
+    margin-left: 50px;
 }
