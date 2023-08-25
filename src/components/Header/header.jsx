@@ -8,7 +8,7 @@ export default function Header(){
             
             <div className="header">
                 <img src={logo} alt="imagem da logo" />
-                <h1>header!!!</h1>
+                <h1>aqui vai o navbar</h1>
             </div>
         </>
     )
