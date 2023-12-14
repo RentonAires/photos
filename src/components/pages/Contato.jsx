@@ -4,6 +4,7 @@ export default function Contato(){
         <>
             <h1>Contato</h1>
             <p>Conteudo</p>
+            
         </>
     )
 }

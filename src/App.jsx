@@ -1,42 +1,35 @@
 import Footer from "./components/Footer/footer.jsx"
 import Header from "./components/Header/header.jsx"
 
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 
 import Home from "./components/pages/Home.jsx"
 import Empresa from "./components/pages/Empresa.jsx"
 import Contato from "./components/pages/Contato.jsx"
+import NotFound from "./components/pages/NotFound.jsx";
+import Cadastro from "./components/pages/Cadastro.jsx";
 
 function App() {
   return (
-    <>
-      <Router>
-        <ul>
-          <li >
-            <Link to="/">Home</Link>
-          </li>
-          <li >
-            <Link to="/empresa">Exemplo01</Link>
-          </li>
-          <li >
-            <Link to="/contato">Exemplo02</Link>
-          </li>
-        </ul>
+    <BrowserRouter>
+
+      <div className="App">
+        <Header />
 
         <Routes>
-          <Route exact path="/" element={Home} />
+          <Route exact path="/" element={<Home />} />
 
-          <Route exact path="/empresa" element={Empresa} />
+          <Route  path="/empresa" element={<Empresa />} />
 
-          <Route exact path="/contato" element={Contato} />
+          <Route  path="/contato" element={<Contato />} />
 
+          <Route  path="/cadastro" element={<Cadastro />} />
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
-      </Router>
-
-
-      <Header />
-      <Footer />
-    </>
+        <Footer />
+      </div>
+    </BrowserRouter>
   )
 }
 

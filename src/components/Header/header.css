@@ -19,3 +19,10 @@ img {
     width: 100px;
     margin-left: 50px;
 }
+nav {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    padding-right: 70px;
+
+}
