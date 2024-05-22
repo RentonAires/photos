@@ -5,9 +5,7 @@ export default function Home(){
         <>
             <h1>Home</h1>
             <p>Conteudo</p>
-            <ul>
-                <Card/>
-            </ul>
+            <Card/>
         </>
     )
 }
